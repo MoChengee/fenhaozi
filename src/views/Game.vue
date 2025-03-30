@@ -45,7 +45,7 @@
 import { ref, reactive } from 'vue';
 import GameBoard from '../components/GameBoard.vue';
 import Timer from '../components/Timer.vue';
-import clickSound from '../assets/audio/click.wav';
+import clickSound from '../assets/audio/click.mp3';
 import {
   generateMap,
   removeTiles,
