@@ -29,7 +29,7 @@ const props = defineProps({
 const emit = defineEmits(['click'])
 
 const getImage = (type) => {
-  return `/public/images/elements/${type}.png`
+  return `/src/assets/${type}.png`
 }
 
 const handleClick = () => {
